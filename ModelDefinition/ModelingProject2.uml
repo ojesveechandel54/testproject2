@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="50047a6f-05f4-48dc-b4a6-b13e4f61c0f1"
+  name="ModelingProject2" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="6eeb114e-2f21-4d95-94fe-16a8888b2d91"
+        name="User"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="abedb596-ee8f-4075-b93d-a5e35093155e"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Contacts"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="daff9ce9-4a0e-4d7a-a7ef-6820d22c9c8f"
+              LastKnownName="Contacts"
+              LastKnownLocation="ModelingProject2.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5d89623a-0de9-4490-b225-e542ffe5a493"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fdd707e9-16fe-4c76-90de-a0b8323f51be"
+                  name="Contacts"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="15655816-efc6-452e-a645-6fd1428b5d26"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Contacts"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="1a2abd71-1a86-41b8-b73c-f9e236df8349"
+              LastKnownName="Contacts"
+              LastKnownLocation="ModelingProject2.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c78e0e4f-665d-4d32-9e09-0213586b25f1"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="74c774e6-7f03-4bbc-a989-c907d7fbb4a8"
+                  name="Contacts"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="9126d632-945d-4854-9bca-d50185fac003"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Chat Box"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="7760749e-7f18-46e3-a1a5-f5d1d85ef0a6"
+              LastKnownName="Chat Box"
+              LastKnownLocation="ModelingProject2.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="bb57079c-429a-4d01-87bb-e59a2af098c9"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7410f519-a398-489e-9da8-05589ea6795a"
+                  name="Chat Box"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="7760749e-7f18-46e3-a1a5-f5d1d85ef0a6"
+        name="Chat Box"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="7e4eb7bc-656f-4565-a1a2-b2937a22b1da"
+            LastKnownName="Subsystem1"
+            LastKnownLocation="ModelingProject2.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="4f0ce871-f65c-44b7-beaa-5ef2c6bec58b"
+        name="Camera"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="01d0021c-d498-4846-bbde-b8cc4b355dbe">
+            <useCaseMoniker
+              Id="7760749e-7f18-46e3-a1a5-f5d1d85ef0a6"
+              LastKnownName="Chat Box"
+              LastKnownLocation="ModelingProject2.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="7e4eb7bc-656f-4565-a1a2-b2937a22b1da"
+            LastKnownName="Subsystem1"
+            LastKnownLocation="ModelingProject2.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="59014e69-c2b3-4d5a-96f6-1f4d56c9435c"
+        name="Video Calls"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="2b3fef50-cbf3-4378-8c53-2fd352cfdbeb">
+            <useCaseMoniker
+              Id="7760749e-7f18-46e3-a1a5-f5d1d85ef0a6"
+              LastKnownName="Chat Box"
+              LastKnownLocation="ModelingProject2.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="7e4eb7bc-656f-4565-a1a2-b2937a22b1da"
+            LastKnownName="Subsystem1"
+            LastKnownLocation="ModelingProject2.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="01b66a8a-2fa6-450f-97de-26d3b6f67af9"
+        name="Audio Calls"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="64f0e52e-7202-4b05-babf-aac2dc844481">
+            <useCaseMoniker
+              Id="7760749e-7f18-46e3-a1a5-f5d1d85ef0a6"
+              LastKnownName="Chat Box"
+              LastKnownLocation="ModelingProject2.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="7e4eb7bc-656f-4565-a1a2-b2937a22b1da"
+            LastKnownName="Subsystem1"
+            LastKnownLocation="ModelingProject2.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="1bab5bba-6c3f-4f18-9ba9-d5d5e7b78495"
+        name="Attachements"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="fbf537f6-7eca-44d9-bc3c-6b2327c817c6">
+            <useCaseMoniker
+              Id="7760749e-7f18-46e3-a1a5-f5d1d85ef0a6"
+              LastKnownName="Chat Box"
+              LastKnownLocation="ModelingProject2.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="7e4eb7bc-656f-4565-a1a2-b2937a22b1da"
+            LastKnownName="Subsystem1"
+            LastKnownLocation="ModelingProject2.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="96b6a5e2-6794-4ce8-8bbc-0ab9b57d714d"
+        name="Chat History"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="3038617a-0865-408e-9372-30dc4e2bfa26">
+            <useCaseMoniker
+              Id="7760749e-7f18-46e3-a1a5-f5d1d85ef0a6"
+              LastKnownName="Chat Box"
+              LastKnownLocation="ModelingProject2.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="7e4eb7bc-656f-4565-a1a2-b2937a22b1da"
+            LastKnownName="Subsystem1"
+            LastKnownLocation="ModelingProject2.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="daff9ce9-4a0e-4d7a-a7ef-6820d22c9c8f"
+        name="Contacts"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="fed4c87b-fedc-4777-b6da-494271c71314"
+            isDerived="false"
+            sourceEndRoleName="Contacts"
+            targetEndRoleName="Contacts"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="daff9ce9-4a0e-4d7a-a7ef-6820d22c9c8f"
+              LastKnownName="Contacts"
+              LastKnownLocation="ModelingProject2.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f55911d3-ae6c-486d-807c-913dc019ba23"
+                  name="Contacts"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3dc24926-afd1-47bd-a325-5cb0fca8b5f7"
+                  name="Contacts"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e0f2e10f-be64-4621-9cd1-9ebcbf3e016d"
+        name="Availability"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="b2865564-8d6a-4184-826a-ef003ccd1546">
+            <useCaseMoniker
+              Id="1a2abd71-1a86-41b8-b73c-f9e236df8349"
+              LastKnownName="Contacts"
+              LastKnownLocation="ModelingProject2.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="7e4eb7bc-656f-4565-a1a2-b2937a22b1da"
+            LastKnownName="Subsystem1"
+            LastKnownLocation="ModelingProject2.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="f0c23ce6-3a93-49ec-8b67-334aec54eca2"
+        name="Show All"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="1202d042-7488-4e52-b3d2-700644870ec2">
+            <useCaseMoniker
+              Id="1a2abd71-1a86-41b8-b73c-f9e236df8349"
+              LastKnownName="Contacts"
+              LastKnownLocation="ModelingProject2.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="7e4eb7bc-656f-4565-a1a2-b2937a22b1da"
+            LastKnownName="Subsystem1"
+            LastKnownLocation="ModelingProject2.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="1a2abd71-1a86-41b8-b73c-f9e236df8349"
+        name="Contacts"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="c929c294-12c5-4ef7-9c88-90988dfab94b">
+            <useCaseMoniker
+              Id="7760749e-7f18-46e3-a1a5-f5d1d85ef0a6"
+              LastKnownName="Chat Box"
+              LastKnownLocation="ModelingProject2.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="7e4eb7bc-656f-4565-a1a2-b2937a22b1da"
+            LastKnownName="Subsystem1"
+            LastKnownLocation="ModelingProject2.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="afe0c171-51a4-4635-b157-1a82fa28e10a"
+        name="Search"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="62a2840f-1065-454b-b9f3-ed7c94b8cf42">
+            <useCaseMoniker
+              Id="1a2abd71-1a86-41b8-b73c-f9e236df8349"
+              LastKnownName="Contacts"
+              LastKnownLocation="ModelingProject2.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="7e4eb7bc-656f-4565-a1a2-b2937a22b1da"
+            LastKnownName="Subsystem1"
+            LastKnownLocation="ModelingProject2.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="294160a1-cca6-43c8-9623-afef25a01437"
+        name="Block User"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="bb1c2dbf-6d7b-432a-9925-0f9acd6a379d">
+            <useCaseMoniker
+              Id="1a2abd71-1a86-41b8-b73c-f9e236df8349"
+              LastKnownName="Contacts"
+              LastKnownLocation="ModelingProject2.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="7e4eb7bc-656f-4565-a1a2-b2937a22b1da"
+            LastKnownName="Subsystem1"
+            LastKnownLocation="ModelingProject2.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="7e4eb7bc-656f-4565-a1a2-b2937a22b1da"
+        name="Subsystem1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

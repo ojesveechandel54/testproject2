@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="014d1e4f-e92e-45f8-be7e-0572c40dad3f" name="UMLUseCaseDiagram1" linkedPackageId="418803d3-cdf2-46fc-83b0-78235b792da5" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="86fcb49e-ae9c-4f0a-b3d3-a1be03c07e5d">
+      <profileInstance Id="a5cdf0ab-0c63-4ece-9082-56a70feb6a78" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="23fc4122-be18-494f-9b48-b784ce697f20">
+      <profileInstance Id="4a454df7-11b1-4c73-a821-d85c2a88cd54" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="cabce31a-c21a-49d8-9c11-64d11974b5ec" name="User" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6eeb114e-2f21-4d95-94fe-16a8888b2d91" />
+        <targetEnds>
+          <association Id="02e9b863-7359-4524-876a-e06e7db6ae11" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Contacts" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="0ffe636c-5a5e-497d-80c4-03ced192accf" LastKnownName="Contacts" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1a71d72a-ef54-4fb0-8e06-87529486ba40" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c78e0e4f-665d-4d32-9e09-0213586b25f1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e9e66fb1-b01e-488b-bbb6-b5f913b24e2b" name="Contacts" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="74c774e6-7f03-4bbc-a989-c907d7fbb4a8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="15655816-efc6-452e-a645-6fd1428b5d26" />
+          </association>
+          <association Id="e05cd3b8-30c4-4a46-9868-806c4786f255" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Chat Box" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="8f88755e-271f-4db0-9114-730e62d40713" LastKnownName="Chat Box" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c3fe2498-a57e-482a-8d4c-05385fd5ad72" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="bb57079c-429a-4d01-87bb-e59a2af098c9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1ceea6a2-f62b-47ed-88dc-b36d79c7c0bb" name="Chat Box" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7410f519-a398-489e-9da8-05589ea6795a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9126d632-945d-4854-9bca-d50185fac003" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="8f88755e-271f-4db0-9114-730e62d40713" name="Chat Box" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7760749e-7f18-46e3-a1a5-f5d1d85ef0a6" />
+        <subjects>
+          <subsystemMoniker Id="1b01c14b-5e59-4020-aeeb-37c1453d54a9" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="2f775207-2a77-4f14-b7dc-1a1b418ce237" name="Camera" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4f0ce871-f65c-44b7-beaa-5ef2c6bec58b" />
+        <extendedCases>
+          <extend Id="f57a9f96-ee2d-4d39-adf6-8e5cd3eecd58">
+            <useCaseMoniker Id="8f88755e-271f-4db0-9114-730e62d40713" LastKnownName="Chat Box" />
+            <elementDefinition Id="01d0021c-d498-4846-bbde-b8cc4b355dbe" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="1b01c14b-5e59-4020-aeeb-37c1453d54a9" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b37f6679-597a-423a-9802-35cf8ffe693c" name="Video Calls" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="59014e69-c2b3-4d5a-96f6-1f4d56c9435c" />
+        <extendedCases>
+          <extend Id="b162797d-b2f1-4d59-917b-f24c2f9949d6">
+            <useCaseMoniker Id="8f88755e-271f-4db0-9114-730e62d40713" LastKnownName="Chat Box" />
+            <elementDefinition Id="2b3fef50-cbf3-4378-8c53-2fd352cfdbeb" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="1b01c14b-5e59-4020-aeeb-37c1453d54a9" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="fab7d7bd-a536-4362-a985-5544909bda40" name="Audio Calls" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="01b66a8a-2fa6-450f-97de-26d3b6f67af9" />
+        <extendedCases>
+          <extend Id="bb4499dd-b3f5-4d45-bead-7c09c379f61a">
+            <useCaseMoniker Id="8f88755e-271f-4db0-9114-730e62d40713" LastKnownName="Chat Box" />
+            <elementDefinition Id="64f0e52e-7202-4b05-babf-aac2dc844481" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="1b01c14b-5e59-4020-aeeb-37c1453d54a9" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="269800b2-9ef1-488e-a0d5-6011bc9f092c" name="Attachements" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1bab5bba-6c3f-4f18-9ba9-d5d5e7b78495" />
+        <extendedCases>
+          <extend Id="cf65dd11-a949-452f-ba6e-6abfcf32fcfa">
+            <useCaseMoniker Id="8f88755e-271f-4db0-9114-730e62d40713" LastKnownName="Chat Box" />
+            <elementDefinition Id="fbf537f6-7eca-44d9-bc3c-6b2327c817c6" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="1b01c14b-5e59-4020-aeeb-37c1453d54a9" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="56dfd622-f77b-4a93-bf6e-7856e9930737" name="Chat History" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="96b6a5e2-6794-4ce8-8bbc-0ab9b57d714d" />
+        <extendedCases>
+          <extend Id="6b1bd759-5d20-4dd9-8031-8dc216886b9a">
+            <useCaseMoniker Id="8f88755e-271f-4db0-9114-730e62d40713" LastKnownName="Chat Box" />
+            <elementDefinition Id="3038617a-0865-408e-9372-30dc4e2bfa26" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="1b01c14b-5e59-4020-aeeb-37c1453d54a9" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="868f88d7-1ccc-456c-8300-aca1c6a550c4" name="Availability" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e0f2e10f-be64-4621-9cd1-9ebcbf3e016d" />
+        <extendedCases>
+          <extend Id="99cb3bdb-690b-47bb-aeb8-036f32faff36">
+            <useCaseMoniker Id="0ffe636c-5a5e-497d-80c4-03ced192accf" LastKnownName="Contacts" />
+            <elementDefinition Id="b2865564-8d6a-4184-826a-ef003ccd1546" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="1b01c14b-5e59-4020-aeeb-37c1453d54a9" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="a79da865-d48f-476d-849e-1798cc0c348b" name="Show All" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f0c23ce6-3a93-49ec-8b67-334aec54eca2" />
+        <extendedCases>
+          <extend Id="d3208208-c22f-4c0b-8a2b-f3f811da28d0">
+            <useCaseMoniker Id="0ffe636c-5a5e-497d-80c4-03ced192accf" LastKnownName="Contacts" />
+            <elementDefinition Id="1202d042-7488-4e52-b3d2-700644870ec2" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="1b01c14b-5e59-4020-aeeb-37c1453d54a9" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="0ffe636c-5a5e-497d-80c4-03ced192accf" name="Contacts" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1a2abd71-1a86-41b8-b73c-f9e236df8349" />
+        <additions>
+          <include Id="73dc9a03-1ca7-45b2-a278-e5b15282a4e5">
+            <useCaseMoniker Id="8f88755e-271f-4db0-9114-730e62d40713" LastKnownName="Chat Box" />
+            <elementDefinition Id="c929c294-12c5-4ef7-9c88-90988dfab94b" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="1b01c14b-5e59-4020-aeeb-37c1453d54a9" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="72f060fa-0402-48c0-a6ea-3b4f6c2ce976" name="Search" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="afe0c171-51a4-4635-b157-1a82fa28e10a" />
+        <extendedCases>
+          <extend Id="f07da7d3-30ce-4387-a22e-acc4a12c6ffa">
+            <useCaseMoniker Id="0ffe636c-5a5e-497d-80c4-03ced192accf" LastKnownName="Contacts" />
+            <elementDefinition Id="62a2840f-1065-454b-b9f3-ed7c94b8cf42" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="1b01c14b-5e59-4020-aeeb-37c1453d54a9" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="920a778f-4e12-46da-af71-e63e88eb18ad" name="Block User" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="294160a1-cca6-43c8-9623-afef25a01437" />
+        <extendedCases>
+          <extend Id="9022974d-ad56-4d52-a1bc-7a4128417694">
+            <useCaseMoniker Id="0ffe636c-5a5e-497d-80c4-03ced192accf" LastKnownName="Contacts" />
+            <elementDefinition Id="bb1c2dbf-6d7b-432a-9925-0f9acd6a379d" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="1b01c14b-5e59-4020-aeeb-37c1453d54a9" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="1b01c14b-5e59-4020-aeeb-37c1453d54a9" name="Subsystem1" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7e4eb7bc-656f-4565-a1a2-b2937a22b1da" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="418803d3-cdf2-46fc-83b0-78235b792da5" name="ModelingProject2">
+    <elementDefinition Id="50047a6f-05f4-48dc-b4a6-b13e4f61c0f1" />
+  </package>
+</useCaseModelRoot>
